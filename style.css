@@ -1,0 +1,48 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+body{
+    background-color: whitesmoke;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.cat-list{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+    flex-wrap: wrap;
+    height: 100%;
+
+}
+
+img{
+    width: 300px;
+    height: 300px;
+    transition: 0.2s;
+}
+
+.btn1{
+    border-radius: 20px;
+    padding: 10px;
+    margin: 20px 0;
+    background-color: rgb(30, 97, 241);
+    transition: 0.2s;
+    color: white;
+    font-size: 2rem;
+}
+
+.btn1:hover{
+    color: black;
+    transform: scale(1.1)
+}
